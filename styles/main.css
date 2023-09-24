@@ -167,7 +167,7 @@ header {
     background-position: center center;
     padding: 100px 100px 120px;
     max-width: 1180px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .banner-title {
 font-size: 60px;
@@ -212,6 +212,9 @@ margin-bottom: 12px;
 .banner-link:hover {
     background-color: transparent;
     color: #FBB731;
+}
+.menu {
+    padding-top: 20px;
 }
 .menu-header {
     display: flex;
@@ -380,7 +383,24 @@ color: #FFF;
     padding-left: 0;
     list-style-type: none;
 }
-
+.button-up {
+    background-color: #FBB731;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1E2F40;
+    text-decoration: none;
+    padding: 5px 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.button-up.hidden {
+    opacity: 0;
+}
+.button-up.visible {
+    opacity: 1;
+}
 /* Style Index */
 .main {
     background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
