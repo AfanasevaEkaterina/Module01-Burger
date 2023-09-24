@@ -394,6 +394,10 @@ color: #FFF;
     position: fixed;
     bottom: 20px;
     right: 20px;
+    border-radius: 5px;
+}
+.button-up:hover {
+    background-color: #F37335;
 }
 .button-up.hidden {
     opacity: 0;
